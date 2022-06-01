@@ -1,0 +1,5 @@
+maybe filtering vs sorting
+
+Filter([@'IT Asset Inventory'], StartsWith(Asset_Type, 'Asset Type_DataCard1'))
+
+NOTHING IS WORKING GAAAAHHH
