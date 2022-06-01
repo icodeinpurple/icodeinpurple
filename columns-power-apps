@@ -1,0 +1,16 @@
+UpdateContext({SortDescending1: !SortDescending1})
+ ^ basic sort / default setting
+ 
+ spaces = _x0200_
+ 
+ attempt 1
+ >> Sort(IT_x0200_Asset_x0200_Inventory,ASSET_x0200_TAG_x0200_ID)
+ 2
+ >> UpdateContext(SortByASSET_x0200_TAG_x0200_ID, SortByColumns(IT_x0200_Asset_x0200_Inventory
+ 3
+ >> SortByColumns(IT_x0200_Asset_x0200_Inventory,"ASSET_x0200_TYPE", Ascending, "LOCATION", Ascending)
+ >>>SortByColumns('IT Assest Inventory', 'ASSET TAG ID_DataCard1', Ascending, 'ASSET TYPE_DataCard1', Ascending, LOCATION_DataCard1, Ascending)
+ 4
+ >>SortByColumns('IT Assest Inventory', 'ASSET TYPE_DataCard1', Ascending)
+ 
+ ugh
